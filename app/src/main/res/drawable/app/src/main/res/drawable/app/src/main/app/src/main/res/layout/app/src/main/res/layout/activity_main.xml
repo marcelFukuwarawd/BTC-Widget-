@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₿"
+        android:textColor="#F7931A"
+        android:textSize="56sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bitcoin Widget"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="Como adicionar na tela inicial:\n\n1. Volte para a tela inicial do celular\n2. Segure o dedo em um espaço vazio\n3. Toque em 'Widgets'\n4. Escolha 'Bitcoin Widget' e arraste para a tela\n\nO valor atualiza automaticamente a cada 10 minutos (Binance) ou quando você tocar no botão ↻ no canto do widget."
+        android:textColor="#CBD5E1"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_update_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#F7931A"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="Atualizar Widget Agora"
+        android:textColor="#0F172A"
+        android:textStyle="bold" />
+
+</LinearLayout>
